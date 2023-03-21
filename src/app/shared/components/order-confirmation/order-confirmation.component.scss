@@ -1,0 +1,39 @@
+.order-confirmation-background-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-confirmation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: aliceblue;
+border-radius: 15px;
+height: 400px;
+width: 300px;
+}
+
+
+
+.return-to-home-button{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+// .return-to-home-button : hover{
+//     background-color: orange;
+
+// }
+
+.return-to-home-button, a{
+    text-decoration: none;
+    color: #fff;
+}

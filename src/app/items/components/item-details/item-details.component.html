@@ -1,0 +1,128 @@
+<!-- <ul class="card-container">
+
+
+    <div class="items-container" *ngFor=" let item of itemsData">
+
+        <div>
+            <img class="item-image" src="{{item['image_url']}}" alt="itemImage">
+
+        </div>
+        <div class="description-container">
+            <h3 class="item-name">{{item['name']}}</h3>
+            <p class="item-cost">Cost: {{item['cost']}}</p>
+            <p class="item-rating">Rating: {{item['rating']}}</p>
+             <a routerLink="admin/items/{{item['id']}}">View Details</a> 
+
+        </div>
+    </div>
+
+
+</ul>
+ -->
+
+
+
+<!-- <button class="add-to-cart-button" type="button" (click)="handleAddToCart(item)">Add to cart</button> -->
+
+
+
+<a routerLink="/admin/items">Go back</a>
+<div class="container">
+    <div class="row">
+        <div class="card col-md-12">
+            <div class="card-body">
+                <!-- <h5 class="card-title">{{item.name]}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p>
+        <p>Cos: {{item['cost']}</p>
+        <p>Rating: {{item['rating']}</p> -->
+
+
+
+
+
+                <div class="edit-items-container" *ngFor=" let item of itemsData">
+
+                    <div>
+                        <img class="edit-item-image" src="{{item['image_url']}}" alt="itemImage">
+
+                    </div>
+                    <div class="edit-description-container">
+                        <h3 class="item-name">Name: {{item['name']}}</h3>
+                        <p class="item-cost">Cost: {{item['cost']}}</p>
+                        <p class="item-rating">Rating: {{item['rating']}}</p>
+                        <!-- <a routerLink="admin/items/{{item['id']}}">View Details</a> -->
+
+                    </div>
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editUserModal"
+                        (click)="handleUpdateModalOpen()">Edit</button>
+                    <button type="button" class="btn btn-danger" (click)="handleDeleteItem()">Delete</button>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- Modal -->
+                 <div class="modal fade" id="editUserModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Update Item</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" *ngIf="dublicateItemsData">
+                                <form ngNativeValidate (ngSubmit)="handleUpdateForm()" *ngFor="let item of itemsData">
+                                    <div class="form-group row mb-3">
+                                        <label for="staticEmail" class="col-sm-2 col-form-label">Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" placeholder="Enter name" required
+                                                [(ngModel)]="item.name" name="personName">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row mb-3">
+                                        <label for="staticEmail" class="col-sm-2 col-form-label">Cost</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" placeholder="Enter Cost" required
+                                                [(ngModel)]="item.cost" name="cost">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row mb-3">
+                                        <label for="staticEmail" class="col-sm-2 col-form-label">Image Url</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" placeholder="Enter Email" required
+                                                [(ngModel)]="item.image_url" name="url">
+                                        </div>
+                                    </div>
+
+                                    <div class="alert alert-success" *ngIf="isUpdated">
+                                        Updated successfully!
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,32 @@
+<nav class="navbar">
+    <div class="nav-container">
+      <div class="navbar-logo-container">
+        <a routerLink="/"> 
+          <img class="website-logo" src="https://res.cloudinary.com/dh4d9iuty/image/upload/v1673269907/restaurent/download_nghmky.png" alt="website_logo">
+        </a>
+        </div>
+
+        <!-- Search Input -->
+        <!-- <div>
+          <input type="text" [(ngModel)]="searchTerm" (keyup)="search($event)"  placeholder="Enter item name">
+        </div> -->
+
+        
+      <ul class="nav-links">
+        <!-- <li class="active" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></li> -->
+
+        <li class="active" >
+            <a routerLink="/">Home</a>
+        </li>
+        <li class="active" >
+          <a routerLink="admin/items">Admin</a>
+      </li>
+        
+        <li><a routerLink="/items/cart">Cart ({{cartCount}})</a></li>
+        <li><a routerLink="/logout">Logout</a></li>
+        
+        
+      </ul>
+    </div>
+  </nav>

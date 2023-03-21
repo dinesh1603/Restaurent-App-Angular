@@ -1,0 +1,71 @@
+
+
+
+<!-- <div class="row">
+
+    <div class="card col-sm-3" *ngFor="let user of itemsData">
+        <div class="card-body">
+          <h5 class="card-title">{{user.name}}</h5>
+          <p class="card-text">{{user.phone}}</p>
+          <a routerLink="/users/{{user.id}}" class="card-link">View Details</a>
+        </div>
+      </div>
+</div> -->
+
+
+ <!-- <ul class="card-container">
+   
+  
+  <div class="items-container" *ngFor=" let item of itemsList">
+         
+       <div>
+            <img class="item-image" src="{{item.image_url}}" alt="itemImage">
+
+        </div>
+         <div class="description-container">
+            <h3 class="item-name">{{item.name}}</h3>
+            <p class="item-cost">Cost: {{item.cost}}</p>
+            <p class="item-rating">Rating: {{item.rating}}</p>
+            <button class="add-to-cart-button" type="button" (click)="handleAddToCart($event)"> Add to cart</button>
+        </div> 
+    </div> 
+</ul>  
+ -->
+
+
+
+<div class="food-type-container">
+    <h2>Choose your Food:   </h2>
+    <div>
+        <input type="text" [(ngModel)]="searchTerm" (keyup)="search($event)"  placeholder="Enter item name">
+      </div>
+
+    <div class="buttons-container">
+        <button class="menu-button" type="button" (click)="filter('')" >ALL</button>
+        <button class="menu-button" type="button" (click)="filter('VEG')">VEG</button>
+        <button class="menu-button" type="button" (click)="filter('NON-VEG')">NON-VEG</button>
+    </div>
+    
+</div>
+
+<ul class="card-container">
+   
+  
+    <div class="items-container" *ngFor=" let item of filterCategory | filter:searchKey : 'name' " >
+           
+         <div>
+              <img class="item-image" src="{{item['image_url']}}" alt="itemImage">
+  
+          </div>
+           <div class="description-container">
+              <h3 class="item-name">{{item['name']}}</h3>
+              <p class="item-cost">Cost: {{item['cost']}}</p>
+              <p class="item-cost">Type: {{item['food_type']}}</p>
+              <p class="item-rating">Rating: {{item['rating']}}</p>
+              <button class="add-to-cart-button" type="button" (click)="handleAddToCart(item)">Add to cart</button>
+          </div> 
+      </div> 
+  </ul>  
+  
+  
+

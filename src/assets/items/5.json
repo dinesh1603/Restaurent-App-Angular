@@ -1,0 +1,14 @@
+
+  [
+    
+    {
+      "name": "veg Salad",
+      "cost": 465,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426680/foodItems/veg-salad-20_qbnong.jpg",
+      "id": 5,
+      "rating": 5
+    }
+
+  ]
+

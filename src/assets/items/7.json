@@ -1,0 +1,14 @@
+
+  [
+    
+    {
+      "name": "Masala Dosa",
+      "cost": 550,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/masala-dosa-22_ijgghh.jpg",
+      "id": 7,
+      "rating": 4
+    }
+
+  ]
+

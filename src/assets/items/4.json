@@ -1,0 +1,14 @@
+
+  [
+    
+    {
+      "name": "Mutton Salad",
+      "cost": 335,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/mutton-salad-19_zp6y65.webp",
+      "id": 4,
+      "rating": 3.4
+    }
+
+  ]
+

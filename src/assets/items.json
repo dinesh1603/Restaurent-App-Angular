@@ -1,0 +1,125 @@
+
+  [
+    {
+      "name": "Chicken Salad",
+      "cost": 345,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426677/foodItems/chicken-salad-16_jegxlf.jpg",
+      "id": 1,
+      "rating": 3.4
+    },
+    {
+      "name": "Onion Salad",
+      "cost": 315,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/onion-salad-17_l2ubfk.jpg",
+      "id": 2,
+      "rating": 4.5
+    },
+    {
+      "name": "Okra Salad",
+      "cost": 375,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/okra-salad-18_sjy3yb.jpg",
+      "id": 3,
+      "rating": 4.5
+    },
+    {
+      "name": "Mutton Salad",
+      "cost": 335,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/mutton-salad-19_zp6y65.webp",
+      "id": 4,
+      "rating": 3.4
+    },
+    {
+      "name": "veg Salad",
+      "cost": 465,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426680/foodItems/veg-salad-20_qbnong.jpg",
+      "id": 5,
+      "rating": 5
+    },
+    {
+      "name": "VEG Quesadilla",
+      "cost": 610,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426680/foodItems/veg-quesadilla-21_rlfxqn.jpg",
+      "id": 6,
+      "rating": 4.4
+    },
+    {
+      "name": "Masala Dosa",
+      "cost": 550,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/masala-dosa-22_ijgghh.jpg",
+      "id": 7,
+      "rating": 4
+    },
+    {
+      "name": "Panner Dosa",
+      "cost": 640,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/panner-dosa-23_yl9zoe.jpg",
+      "id": 8,
+      "rating": 4.5
+    },
+    {
+      "name": "Cheese Dosa",
+      "cost": 430,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/masala-dosa-22_ijgghh.jpg",
+      "id": 9,
+      "rating": 4
+    },
+    {
+      "name": "Chicken Tickels",
+      "cost": 205,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426678/foodItems/chicken-tickels-25_x736s8.jpg",
+      "id": 10,
+      "rating": 4
+    },
+    {
+      "name": "Kids Steak Taco",
+      "cost": 200,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426678/foodItems/kids-steak-taco-26_qz0cgj.jpg",
+      "id": 11,
+      "rating": 3.4
+    },
+    {
+      "name": "Chips",
+      "cost": 540,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426678/foodItems/chips-27_dqfyz6.jpg",
+      "id": 12,
+      "rating": 3.8
+    },
+    {
+      "name": "Chips and Salsa",
+      "cost": 570,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426678/foodItems/chips-and-salsa-28_qwg6jk.jpg",
+      "id": 13,
+      "rating": 4.2
+    },
+    {
+      "name": "Chips and Guacamole",
+      "cost": 770,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426678/foodItems/chips-and-guacamole-29_ejspzf.jpg",
+      "id": 14,
+      "rating": 4.5
+    },
+    {
+      "name": "Chips and Queso",
+      "cost": 770,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426678/foodItems/chips-and-queso-30_apmqpv.jpg",
+      "id": 15,
+      "rating": 4.2
+    }
+
+  ]
+

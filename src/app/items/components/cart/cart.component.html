@@ -1,0 +1,29 @@
+<div *ngIf="isEmpty; then thenBlock; else elseBlock"> </div>
+<ng-template #thenBlock>
+    <div class="empty-cart-view">
+        <img class="empty-cart-image"
+            src="https://res.cloudinary.com/dh4d9iuty/image/upload/v1632989083/restaurent/OBJECTS_ghm6xj.png" alt="">
+        <button class="add-items-button" >
+            <a routerLink="/">Add Items</a></button>
+    </div>
+</ng-template>
+
+<ng-template #elseBlock>
+    <div class="cart-background-cotainer">
+        <div class="cart-cotainer" *ngFor="let item of cartItemsList">
+            <div><img class="cart-item-image" src="{{item.image_url}}" alt=""> </div>
+            <div>{{item.name}}</div>
+            <div>{{item.cost}}</div>
+
+        </div>
+
+        <div class="total-container">
+            <div class="total-amount-container">
+                
+                <h3 class="total-amount">Total: <strong>{{cartTotal | currency:'INR'}} </strong></h3>
+            </div>
+        </div>
+
+        <button class="place-order-button" type="button"><a routerLink="/confirmation" (click)="handlePlaceOrder()">Place the Order</a></button>
+    </div>
+</ng-template>

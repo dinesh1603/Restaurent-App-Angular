@@ -1,0 +1,30 @@
+.not-found-background-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.not-found-image{
+    height: 200px;
+    width: 150px;
+
+}
+
+.return-to-home-button{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+.return-to-home-button, a{
+    text-decoration: none;
+    color: #fff;
+}
+

@@ -1,0 +1,13 @@
+
+  [
+    {
+      "name": "Chicken Salad",
+      "cost": 345,
+      "food_type": "NON-VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426677/foodItems/chicken-salad-16_jegxlf.jpg",
+      "id": 1,
+      "rating": 3.4
+    }
+
+  ]
+

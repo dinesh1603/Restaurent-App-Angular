@@ -1,0 +1,14 @@
+
+  [
+    
+    {
+      "name": "Okra Salad",
+      "cost": 375,
+      "food_type": "VEG",
+      "image_url": "https://res.cloudinary.com/dh4d9iuty/image/upload/v1661426679/foodItems/okra-salad-18_sjy3yb.jpg",
+      "id": 3,
+      "rating": 4.5
+    }
+
+  ]
+
